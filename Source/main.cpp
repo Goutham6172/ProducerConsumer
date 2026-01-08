@@ -22,3 +22,7 @@ OnDestroy()
     WaitForSingleObject(m_workerThread->m_hThread, INFINITE);
 
 }
+
+private:
+    ThreadSafeQueue m_queue;
+    WorkerThread*   m_workerThread;  // ← THIS
