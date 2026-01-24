@@ -26,3 +26,5 @@ OnDestroy()
 private:
     ThreadSafeQueue m_queue;
     WorkerThread*   m_workerThread;  // ← THIS
+
+// https://www.instagram.com/reel/DT0fJmxjVnI/?igsh=MWtzdmJwOHJ2YzBrZA==
